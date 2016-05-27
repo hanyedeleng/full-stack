@@ -1,0 +1,31 @@
+1. client : server
+
+              URL (Uniform Resources Locator)
+      client  --------------------------->  server
+              <----------------------------
+              HTTP (HyperText Transfer Protocol)
+  
+  
+HTTP/1.0 1996/05
+HTTP/1.1 1997/01
+
+
+2. TCP/IP
+Application	HTTP, Telnet, FTP, TFTP, SNMP, DNS, SMTP, X Windows, other application protocols
+Transport	TCP, UDP, RTP
+Internet	IP, ICMP, ARP, RARP
+Network interface	Ethernet, Token Ring, FDDI, X.25, Frame Relay, RS-232, v.35
+
+
+IP and MAC (Media Access Control Address)
+
+ARP: get MAC address through IP address
+
+3. TCP
+Byte Stream Service,  segment
+
+4. URI 
+Uniform Resource Identifier
+
+URL subset of URI
+ftp, http ldap, telnet, mailto....
