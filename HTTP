@@ -29,3 +29,59 @@ Uniform Resource Identifier
 
 URL subset of URI
 ftp, http ldap, telnet, mailto....
+
+
+5. Cookie
+    GET /reader/ HTTP/1.1
+    Host: hackr.jp
+    
+    
+    HTTP/1.1 200 OK
+    Date: Thu, 12 Jul 2012 07:12:20 GMT
+    Server: Apache
+    <Set-Cookie: sid=1242077140226724; path=/; expires=Wed, 10-Oct-12 07:12:20 GMT>
+    Content-Type: text/plain; charset=UTF-8
+    
+    GET /image/ HTTP/1.1
+    Host: hackr.jp
+    Cookie: sid=1342077140226724
+    
+
+HEAD + CR+LF + BODY
+CR: Carriage Return, 0x0d
+LF: Line Feed, 0x0a
+
+MIME: Multipurpose Internet Mail Extensions
+
+
+6. HTTP status code
+  1xx: Informational
+  2xx: Success
+  3xx: Redirection
+  4xx:Client Error
+  5xx Server Error
+  
+  
+  204 No Content
+  206 Partial Content
+  
+  301 Moved Permanently
+  302 Found
+  303 See Other
+  304 Not Modified
+  307 Temporary Redirect
+  
+  400 Bad Request
+  401 Unauthorized
+  403 Forbidden
+  404 Not Found
+  
+  500 Internal Server Error
+  503 Service Unavailable
+  
+  
+  一台web服务器可搭建多个独立域名的web网站（VPS），也可以作为通信路径上的中转服务器提升传输效率。
+  
+  代理服务器不改变请求URI
+  
+  
