@@ -38,4 +38,40 @@
   .style.visibility
   
   
-  
+// how to insert a js file in html
+<script src="scripts.js"></script>
+// code an alert of your choice
+   <script>
+   alert("Hello world!");
+   </script>
+//Load the file practice.js that includes the function goodLooking. Call the function. When you code correctly, an alert will display.
+   <script src="practice.js"></script>
+   <script>
+   goodLooking();
+   </script>
+
+Events: Link:
+
+<a href="JavaScript:void(0)" onClick="greet();">Get greeting</a>
+<a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+
+Events: button:
+<input type="button" value="Submit" onClick="myFunc();">
+<img src="but.gif" onClick="myFunc();">
+
+Events:Mouse
+keyword: onMouseover
+         onMouseout
+         <img src="1.png" onMouseover="src='2.png'">
+         <a href="index.html" onMouseover="alert('Takes you back to home page');">Home</a>
+         <h2 onMouseover="expand();">More</h2>
+         <a href="index.html" onMouseover="this.style.color='red';"> 
+         <img src="pic1.gif" onMouseover="src='pic2.gif'" onMouseout="src='pic1.gif'"> 
+         <input type="button" value="Say hello" onMouseover="alert('Hello!');">
+         <img src="janice-before.jpg" onMouseover="src='janice-after.jpg'" onMouseout="src='janice-before.jpg'">
+
+Events:fields
+
+         
+         
+
