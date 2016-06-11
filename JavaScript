@@ -71,6 +71,12 @@ keyword: onMouseover
          <img src="janice-before.jpg" onMouseover="src='janice-after.jpg'" onMouseout="src='janice-before.jpg'">
 
 Events:fields
+<input type="text" onFocus="this.style.backgroundColor = 'yellow';">
+<input type="text" onBlur="gone();">
+<input type="text" onBlur="this.style.backgroundColor = 'white';"> 
+
+
+var nameEntered = document.getElementById("nameField").value;
 
          
          
