@@ -78,6 +78,18 @@ Events:fields
 
 var nameEntered = document.getElementById("nameField").value;
 
+onSubmit
+var email = document.getElementById("eField").value;
+if (document.getElementById("pet").value === "dog") {
+
+<input type="text" id="age">
+document.getElementById("id1").value = "haha";
+
+function fill() {
+  document.getElementById("f").value = "new value";
+}
+
+
          
          
 
