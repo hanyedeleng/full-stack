@@ -89,6 +89,15 @@ function fill() {
   document.getElementById("f").value = "new value";
 }
 
+Reading and setting paragraph text:
+Assign the contents of the div with the id "div1" to the variable txt, which hasn't been declared beforehand.
+var txt = document.getElementById("div1").innerHTML;
+Place the value found in a field into a paragraph. Make up the ids.
+document.getElementById("p1").innerHTML = document.getElementById("field1").value;
+
+Any existing classes assigned to the paragraph with the id "paragraph1" are replaced by the class "formal". Fill in the blank.
+document.getElementById("paragraph1").className = "formal";
+
 
          
          
